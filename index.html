@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FS Designs — Graphic Design &amp; Illustration</title>
+<meta name="description" content="FS Designs — Let's turn your ideas into something visual.">
+
+<!-- PLACEHOLDER: replace with client-confirmed meta title/description before launch -->
+
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============ NAV ============ -->
+<header class="site-header" id="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="brand">
+      <img src="logo.png" alt="FS Designs logo" class="brand-mark">
+      <span class="brand-word">FS <em>Designs</em></span>
+    </a>
+
+    <nav class="main-nav" id="main-nav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#process">Process</a>
+      <a href="#contact" class="nav-cta">Let's Talk</a>
+    </nav>
+
+    <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="top">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="ink-blot ink-blot--coral" aria-hidden="true"></div>
+    <div class="ink-blot ink-blot--teal" aria-hidden="true"></div>
+
+    <div class="wrap hero-inner">
+      <p class="eyebrow">Graphic Design &amp; Illustration Studio</p>
+      <h1 class="hero-title">
+        Let's turn <span class="hero-title-em">your ideas</span> <br> into something visual.
+      </h1>
+
+      <svg class="pen-stroke pen-stroke--hero" viewBox="0 0 520 60" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path class="pen-path" d="M6 40 C 90 5, 160 55, 250 25 S 420 5, 512 35" stroke="url(#heroStroke)" stroke-width="6" stroke-linecap="round"/>
+        <defs>
+          <linearGradient id="heroStroke" x1="0" y1="0" x2="520" y2="0" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#C89573"/>
+            <stop offset="1" stop-color="#E8C9A8"/>
+          </linearGradient>
+        </defs>
+      </svg>
+
+      <p class="hero-sub">
+        Let's turn your ideas into something visual.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">View the Work</a>
+        <a href="#contact" class="btn btn-ghost">Start a Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="wrap about-inner--centered">
+      <div class="about-copy">
+        <p class="eyebrow">About</p>
+        <h2>Hi, I'm Fatima, a Digital Media student and aspiring Graphic Designer &amp; Digital Creator.</h2>
+        <p>I'm passionate about creating clean, creative, and engaging designs that help brands and individuals communicate their ideas visually. I work on social media designs, branding, promotional content, presentations, and digital content.</p>
+        <p>I'm always learning, experimenting with new ideas, and improving my skills to create designs that are both visually appealing and effective.</p>
+        <p class="about-slogan">Let's turn your ideas into something visual.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="services" id="services">
+    <div class="wrap">
+      <p class="eyebrow eyebrow--onDark">Services</p>
+      <h2 class="section-title section-title--onDark">What I can create for you</h2>
+
+      <div class="service-grid">
+        <article class="service-card">
+          <span class="service-dot service-dot--coral" aria-hidden="true"></span>
+          <h3>Brand Identity</h3>
+          <p>[PLACEHOLDER: logo suites, color systems, and brand guidelines built to hold up across every touchpoint.]</p>
+        </article>
+
+        <article class="service-card">
+          <span class="service-dot service-dot--teal" aria-hidden="true"></span>
+          <h3>Illustration</h3>
+          <p>[PLACEHOLDER: custom illustration for packaging, editorial spreads, and digital campaigns.]</p>
+        </article>
+
+        <article class="service-card">
+          <span class="service-dot service-dot--gold" aria-hidden="true"></span>
+          <h3>Editorial &amp; Print</h3>
+          <p>[PLACEHOLDER: magazines, lookbooks, and print collateral designed to be picked up and kept.]</p>
+        </article>
+
+        <article class="service-card">
+          <span class="service-dot service-dot--coral" aria-hidden="true"></span>
+          <h3>Social &amp; Digital</h3>
+          <p>[PLACEHOLDER: templated content systems so your feed stays consistent long after the project ends.]</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WORK / PORTFOLIO ============ -->
+  <section class="work" id="work">
+    <div class="wrap">
+      <p class="eyebrow">Selected Work</p>
+      <h2 class="section-title">A few favorites</h2>
+
+      <div class="work-filters" role="tablist" aria-label="Filter work by category">
+        <button class="filter-btn is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+        <button class="filter-btn" data-filter="branding" role="tab" aria-selected="false">Branding</button>
+        <button class="filter-btn" data-filter="illustration" role="tab" aria-selected="false">Illustration</button>
+        <button class="filter-btn" data-filter="editorial" role="tab" aria-selected="false">Editorial</button>
+      </div>
+
+      <div class="work-grid" id="work-grid">
+
+        <article class="work-card" data-category="branding">
+          <div class="work-thumb work-thumb--1">
+            <span class="work-thumb-label">[PLACEHOLDER IMAGE]</span>
+          </div>
+          <h3>[PLACEHOLDER: Project Name]</h3>
+          <p class="work-cat">Branding</p>
+        </article>
+
+        <article class="work-card" data-category="illustration">
+          <div class="work-thumb work-thumb--2">
+            <span class="work-thumb-label">[PLACEHOLDER IMAGE]</span>
+          </div>
+          <h3>[PLACEHOLDER: Project Name]</h3>
+          <p class="work-cat">Illustration</p>
+        </article>
+
+        <article class="work-card" data-category="editorial">
+          <div class="work-thumb work-thumb--3">
+            <span class="work-thumb-label">[PLACEHOLDER IMAGE]</span>
+          </div>
+          <h3>[PLACEHOLDER: Project Name]</h3>
+          <p class="work-cat">Editorial</p>
+        </article>
+
+        <article class="work-card" data-category="branding">
+          <div class="work-thumb work-thumb--4">
+            <span class="work-thumb-label">[PLACEHOLDER IMAGE]</span>
+          </div>
+          <h3>[PLACEHOLDER: Project Name]</h3>
+          <p class="work-cat">Branding</p>
+        </article>
+
+        <article class="work-card" data-category="illustration">
+          <div class="work-thumb work-thumb--5">
+            <span class="work-thumb-label">[PLACEHOLDER IMAGE]</span>
+          </div>
+          <h3>[PLACEHOLDER: Project Name]</h3>
+          <p class="work-cat">Illustration</p>
+        </article>
+
+        <article class="work-card" data-category="editorial">
+          <div class="work-thumb work-thumb--6">
+            <span class="work-thumb-label">[PLACEHOLDER IMAGE]</span>
+          </div>
+          <h3>[PLACEHOLDER: Project Name]</h3>
+          <p class="work-cat">Editorial</p>
+        </article>
+
+      </div>
+
+      <p class="work-empty" id="work-empty" hidden>Nothing here yet in this category — check back soon.</p>
+    </div>
+  </section>
+
+  <!-- ============ PROCESS ============ -->
+  <section class="process" id="process">
+    <div class="wrap">
+      <p class="eyebrow eyebrow--onDark">Process</p>
+      <h2 class="section-title section-title--onDark">From sketch to shipped</h2>
+
+      <div class="process-line-wrap" aria-hidden="true">
+        <svg class="pen-stroke pen-stroke--process" viewBox="0 0 1000 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <path class="pen-path" d="M0 20 C 150 -10, 250 50, 400 20 S 650 -10, 800 20 S 950 40, 1000 20" stroke="#C89573" stroke-width="3" stroke-linecap="round" fill="none"/>
+        </svg>
+      </div>
+
+      <ol class="process-steps">
+        <li>
+          <span class="process-num">01</span>
+          <h3>Discover</h3>
+          <p>[PLACEHOLDER: intro call, goals, references, and audience.]</p>
+        </li>
+        <li>
+          <span class="process-num">02</span>
+          <h3>Sketch</h3>
+          <p>[PLACEHOLDER: concepts and rough directions to react to.]</p>
+        </li>
+        <li>
+          <span class="process-num">03</span>
+          <h3>Refine</h3>
+          <p>[PLACEHOLDER: revisions until it feels exactly right.]</p>
+        </li>
+        <li>
+          <span class="process-num">04</span>
+          <h3>Deliver</h3>
+          <p>[PLACEHOLDER: final files, formats, and a quick handoff walkthrough.]</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="testimonials" id="testimonials">
+    <div class="wrap">
+      <p class="eyebrow">Kind Words</p>
+      <h2 class="section-title">What clients say</h2>
+
+      <div class="testimonial-grid">
+        <blockquote class="testimonial-card">
+          <p>“Fatima understood exactly what I was looking for and turned
+my ideas into a beautiful, professional design. Her attention
+to detail and creativity really stood out.”</p>
+          <cite>— Sarah M., Business Owner</cite>
+        </blockquote>
+        <blockquote class="testimonial-card">
+          <p>“Working with Fatima was a great experience. She was
+creative, responsive, and delivered high-quality designs that
+perfectly matched my brand.”</p>
+          <cite>— Lina K., Small Business Owner</cite>
+        </blockquote>
+        <blockquote class="testimonial-card">
+          <p>“The designs were modern, eye-catching, and exactly what I
+needed for my social media. I highly recommend Fatima for
+anyone looking for a creative graphic designer.”</p>
+          <cite>— Maya R., Content Creator</cite>
+        </blockquote>
+        <blockquote class="testimonial-card">
+          <p>“Professional, creative, and easy to work with. Fatima took
+my concept and transformed it into a visual identity that I
+was really happy with.”</p>
+          <cite>— David H., Entrepreneur</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="hero-glow hero-glow--contact" aria-hidden="true"></div>
+    <div class="wrap contact-inner">
+      <div class="contact-alt">
+        <p>Reach out directly:</p>
+        <a href="mailto:fsdesigns@gmail.com">fsdesigns@gmail.com</a>
+        <a href="https://www.instagram.com/fs_designs2/?hl=en" target="_blank" rel="noopener noreferrer">Instagram: fs_designs2</a>
+        <a href="https://www.linkedin.com/in/fatima-swaidan-958b74397?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer">LinkedIn: Fatima Swaidan</a>
+        <a href="https://drive.google.com/file/d/13WQ_cgfAh-BG0v3xQdXDuKTGvnni9qy6/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">My Portfolio</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <a href="#top" class="brand brand--footer">
+      <img src="logo.png" alt="FS Designs logo" class="brand-mark">
+      <span class="brand-word">FS <em>Designs</em></span>
+    </a>
+    <nav aria-label="Footer">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <p class="footer-copy">© 2026 FS Designs</p>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
